@@ -1,0 +1,15 @@
+{
+  "name": "www",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "your-wasm": "file:../pkg",
+    "vite": "^7.0.5",
+    "vite-plugin-wasm": "^3.5.0"
+  }
+}
